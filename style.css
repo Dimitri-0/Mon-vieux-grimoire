@@ -1,0 +1,290 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/background.png) ;
+    background-repeat: no-repeat;
+    background-color: rgb(242,227,206);
+    
+}
+
+@font-face {
+    font-family: 'LibreBaskerville-Regular';
+    src: url(LibreBaskerville-Regular.ttf) format(truetype);
+}
+
+
+#box1 {
+    display: flex;
+    background-color: white;
+    height:100px
+
+}
+
+
+#titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-family: 'LibreBaskerville-Regular' ;
+    font-size: 14px;
+    background-color: white;
+}
+
+.soustitre {
+    
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    text-align: right;
+    font-family: 'LibreBaskerville-Regular';
+    font-size: 18px;
+    background-color: white;
+    
+}
+
+#box2 {
+    display: flex;
+    height:300px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-top: 10%;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.haut {
+    text-align: center;
+    font-family: 'LibreBaskerville-Regular';
+    font-size:20px;
+
+}
+
+.bouton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:14px;
+    width: 146px;
+    height: 61px;
+    background-color: rgb(217,169,99);
+    border-radius: 5px;
+}
+
+#boxparent {
+    display: flex;
+    
+    justify-content: center;
+    height:auto;
+    background-color: white;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius:7px;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+#boxchild {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    width: 80%;
+    height:50%;
+    
+}
+
+
+.etoile {
+    font-size: 20px;
+    color:rgb(217,169,99) ;
+    
+}
+
+.description {
+    
+    margin-left: 20px;
+    float: right;
+}
+
+
+.livre1 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-top:100px;
+    
+   
+
+}
+
+.livre2 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-top:100px;
+    
+    
+}
+
+.livre3 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top:100px;
+    
+}
+
+.livre4 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top:100px;
+    
+}
+
+.livre5 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top:100px;
+    
+}
+
+.livre6 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top:100px;
+    
+}
+
+.livre7 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top:100px;
+    
+}
+
+.livre8 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top:100px;
+    
+}
+
+.livre9 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top:100px;
+    
+}
+
+.livre10 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top:100px;
+    margin-bottom: 40px;
+    
+}
+
+.livre11 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top:100px;
+    margin-bottom: 40px
+    
+}
+
+.livre12 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top:100px;
+    margin-bottom: 40px
+    
+}
+
+#boxfooter {
+    display: flex;
+    
+    margin-top: 50px;
+}
+
+.carte {
+    display:flex;
+    margin-left:10px;
+}
+
+.categorie {
+    margin-left: 20px;
+}
+
+.trait {
+    color:rgb(153, 153, 153);
+    text-decoration:underline 1px solid  rgb(153, 153, 153);
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 35%;
+    
+    background-color: white;
+
+}
+
+.footer2 {
+    display: flex;
+    width: 65%;
+    align-items: center;
+    justify-content: end;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+background-color:white;
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+
+#titre {
+    
+    margin-left:10px;
+    
+}
+
+.soustitre {
+    width:80%;
+    font-size:16px;
+}
+
+.footer2 {
+    flex-direction: column;
+}
+
+}
+    
+
+
